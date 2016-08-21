@@ -20,26 +20,34 @@ fail to type check, or have the wrong behaviour. To pass each lesson each
 function needs to be completed or fixed so that it type checks, or has
 deterministic behaviour.
 
-[`src/Koans/`]: ./src/Koans/
-
 The files should be attempted in the following order:
 
-1. Arithmetic.idr
-2. Equality.idr
-3. Boolean.idr
-4. Ranges.idr
-5. Lists.idr
-6. ListComprehensions.idr
-7. Tuples.idr
-8. HigherOrderFunctions.idr
+1. [Arithmetic.idr][]
+2. [Equality.idr][]
+3. [Boolean.idr][]
+4. [Ranges.idr][]
+5. [Lists.idr][]
+6. [ListComprehensions.idr][]
+7. [Tuples.idr][]
+8. [HigherOrderFunctions.idr][]
+
+[`src/Koans/`]: ./src/Koans/
+[Arithmetic.idr]: ./src/Koans/Arithmetic.idr
+[Equality.idr]: ./src/Koans/Equality.idr
+[Boolean.idr]: ./src/Koans/Boolean.idr
+[Ranges.idr]: ./src/Koans/Ranges.idr
+[Lists.idr]: ./src/Koans/Lists.idr
+[ListComprehensions.idr]: ./src/Koans/ListComprehensions.idr
+[Tuples.idr]: ./src/Koans/Tuples.idr
+[HigherOrderFunctions.idr]: ./src/Koans/HigherOrderFunctions.idr
 
 Idris Koans is in early development and so the list of Koans and method of
 interaction is primitive. If you would like to contribute please feel free to do
 so. However, please read [CONTRIBUTING.md] first. We advised the best way to
 attempt each Koan is to edit the Koan file in your favourite editor, and compile
 each Koan in the terminal using the Idris compiler. In future a more interactive
-environment may be planned. Either a CLI/REPL environment _a la_
-[Clojure Koans](http://clojurekoans.com/), or Web Based _a la_
+environment may be planned. Either a CLI/REPL environment _à la_
+[Clojure Koans](http://clojurekoans.com/), or Web Based _à la_
 [Clojurescript Koans](http://clojurescriptkoans.com/) may be added.
 
 [CONTRIBUTING.md]: ./CONTRIBUTING.md
