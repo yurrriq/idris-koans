@@ -8,6 +8,8 @@
 ||| Exercises on equality.
 module Koans.Equality
 
+import Koans.Test
+
 %access export
 
 -- ------------------------------------------------------------------- [ Koans ]
@@ -29,5 +31,25 @@ equalityLeq = ?fillme5 <= 5
 
 equalityLess : Bool
 equalityLess = ?fillme6 < 6
+
+-- ------------------------------------------------------------------- [ Tests ]
+
+testEqualityEq : IO ()
+testEqualityEq = assert equalityEq
+
+testEqualityNeq : IO ()
+testEqualityNeq = assert equalityNeq
+
+testEqualityGeq : IO ()
+testEqualityGeq = assert equalityGeq
+
+testEqualityGtr : IO ()
+testEqualityGtr = assert equalityGtr
+
+testEqualityLeq : IO ()
+testEqualityLeq = assert equalityLeq
+
+testEqualityLess : IO ()
+testEqualityLess = assert equalityLess
 
 -- --------------------------------------------------------------------- [ EOF ]

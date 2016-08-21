@@ -11,6 +11,38 @@ modules    = Koans.Arithmetic
            , Koans.Misc
            , Koans.Test
 
+tests      = Koans.Arithmetic.testAddition
+           , Koans.Arithmetic.testMultiplication
+           , Koans.Arithmetic.testSubtraction
+           , Koans.Arithmetic.testDivision
+           , Koans.Arithmetic.testParentheses
+           , Koans.Boolean.testLogicalAND
+           , Koans.Boolean.testLogicalOR
+           , Koans.Boolean.testLogicalNOT
+           , Koans.Boolean.testLogicalPredicate
+           , Koans.Equality.testEqualityEq
+           , Koans.Equality.testEqualityNeq
+           , Koans.Equality.testEqualityGeq
+           , Koans.Equality.testEqualityGtr
+           , Koans.Equality.testEqualityLeq
+           , Koans.Equality.testEqualityLess
+           , Koans.HigherOrderFunctions.testMyFirstMap
+           , Koans.HigherOrderFunctions.testMySecondMap
+           , Koans.HigherOrderFunctions.testMyThirdMap
+           , Koans.HigherOrderFunctions.testMyFirstFold
+           , Koans.HigherOrderFunctions.testMySecondFold
+           , Koans.HigherOrderFunctions.testMyFirstScan
+           , Koans.HigherOrderFunctions.testMySecondScan
+           , Koans.HigherOrderFunctions.testMyThirdScan
+           , Koans.HigherOrderFunctions.testMyFirstFilter
+           , Koans.HigherOrderFunctions.testMySecondFilter
+           , Koans.HigherOrderFunctions.testMyFirstCombi
+           , Koans.ListComprehensions.testListCompZero
+           , Koans.ListComprehensions.testMyFirstListComp
+           , Koans.ListComprehensions.testComputeList
+           , Koans.ListComprehensions.testDivisibleByNine
+           , Koans.ListComprehensions.testBoomBangs
+
 brief      = "Small lessons on the path to enlightenment."
 version    = 0.0.1
 readme     = README.md

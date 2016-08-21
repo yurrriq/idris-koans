@@ -8,6 +8,8 @@
 ||| Exercises using higher-order functions.
 module Koans.HigherOrderFunctions
 
+import Koans.Test
+
 %access export
 
 -- ----------------------------------------------------------------- [ Mapping ]
@@ -61,6 +63,7 @@ myThirdScan = scanl (/) 64.0 [4,2,4] == ?fillme8
 -- You can filter things as well.
 -- --------------------------------------------------------------------- [ EOH ]
 
+private
 xs : List Int
 xs = [1,2,3,4,5,6,7,8,9,10]
 
@@ -78,5 +81,40 @@ myFirstCombi : Bool
 myFirstCombi =
   let filteredThenMapped = map ?fillme17 (filter ?fillme18 xs)
   in  ["bang","boom","bang","boom","bang"] == filteredThenMapped
+
+-- ------------------------------------------------------------------- [ Tests ]
+
+testMyFirstMap : IO ()
+testMyFirstMap = assert myFirstMap
+
+testMySecondMap : IO ()
+testMySecondMap = assert mySecondMap
+
+testMyThirdMap : IO ()
+testMyThirdMap = assert myThirdMap
+
+testMyFirstFold : IO ()
+testMyFirstFold = assert myFirstFold
+
+testMySecondFold : IO ()
+testMySecondFold = assert mySecondFold
+
+testMyFirstScan : IO ()
+testMyFirstScan = assert myFirstScan
+
+testMySecondScan : IO ()
+testMySecondScan = assert mySecondScan
+
+testMyThirdScan : IO ()
+testMyThirdScan = assert myThirdScan
+
+testMyFirstFilter : IO ()
+testMyFirstFilter = assert myFirstFilter
+
+testMySecondFilter : IO ()
+testMySecondFilter = assert mySecondFilter
+
+testMyFirstCombi : IO ()
+testMyFirstCombi = assert myFirstCombi
 
 -- --------------------------------------------------------------------- [ EOF ]

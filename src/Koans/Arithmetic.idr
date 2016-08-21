@@ -8,6 +8,8 @@
 ||| Some simple arithmetic exercises.
 module Koans.Arithmetic
 
+import Koans.Test
+
 %access export
 
 -- ------------------------------------------------------------------- [ Koans ]
@@ -38,5 +40,22 @@ division = 26 / ?fillme4 == 2.0
 ||| exist?
 parentheses : Int
 parentheses = ?fillme5
+
+-- ------------------------------------------------------------------- [ Tests ]
+
+testAddition       : IO ()
+testAddition       = assert addition
+
+testMultiplication : IO ()
+testMultiplication = assert multiplication
+
+testSubtraction    : IO ()
+testSubtraction    = assert subtraction
+
+testDivision       : IO ()
+testDivision       = assert division
+
+testParentheses    : IO ()
+testParentheses    = assertEq 520 parentheses
 
 -- --------------------------------------------------------------------- [ EOF ]

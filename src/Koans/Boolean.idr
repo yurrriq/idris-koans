@@ -8,6 +8,8 @@
 ||| Exercises on boolean relations.
 module Koans.Boolean
 
+import Koans.Test
+
 %access export
 
 -- ------------------------------------------------------------------- [ Koans ]
@@ -23,5 +25,19 @@ logicalNOT = not ?fillme3 == False
 
 logicalPredicate : Bool
 logicalPredicate = not ( ?fillme4 && True) || (?fillme5 && False) == True
+
+-- ------------------------------------------------------------------- [ Tests ]
+
+testLogicalAND : IO ()
+testLogicalAND = assert logicalAND
+
+testLogicalOR : IO ()
+testLogicalOR = assert logicalOR
+
+testLogicalNOT : IO ()
+testLogicalNOT = assert logicalNOT
+
+testLogicalPredicate : IO ()
+testLogicalPredicate = assert logicalPredicate
 
 -- --------------------------------------------------------------------- [ EOF ]

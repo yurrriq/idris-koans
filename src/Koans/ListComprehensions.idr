@@ -8,6 +8,8 @@
 ||| Exercises on list comprehensions.
 module Koans.ListComprehensions
 
+import Koans.Test
+
 %access export
 
 -- ------------------------------------------------------------------- [ Koans ]
@@ -40,7 +42,21 @@ boomBangs xs = ?fillme4
 
 -- ------------------------------------------------------------------- [ Tests ]
 
-testBoomBangs : Bool
-testBoomBangs = boomBangs [3,4,5,6,7] == ["bang","boom","bang","boom","bang"]
+testListCompZero : IO ()
+testListCompZero = assert listCompZero
+
+testMyFirstListComp : IO ()
+testMyFirstListComp = assertEq [24,32,40,48,56,64,72,80]
+                               (myFirstListComp [10..40])
+
+testComputeList : IO ()
+testComputeList = assert computeList
+
+testDivisibleByNine : IO ()
+testDivisibleByNine = assertEq [27,36,45,54,63,72,81,90,99] divisibleByNine
+
+testBoomBangs : IO ()
+testBoomBangs = assertEq ["bang","boom","bang","boom","bang"]
+                         (boomBangs [3,4,5,6,7])
 
 -- --------------------------------------------------------------------- [ EOF ]
