@@ -5,7 +5,7 @@
 --           See the file LICENSE in the root directory for its full text.
 -- --------------------------------------------------------------------- [ EOH ]
 
--- | Exercises on Equality.
+||| Exercises on equality.
 module Koans.Equality
 
 -- ------------------------------------------------------------------- [ Koans ]

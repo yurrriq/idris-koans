@@ -5,7 +5,7 @@
 --           See the file LICENSE in the root directory for its full text.
 -- --------------------------------------------------------------------- [ EOH ]
 
--- | Exercises on Lists
+||| Exercises on lists
 module Koans.Lists
 
 -- ------------------------------------------------------------------- [ Koans ]
@@ -69,7 +69,7 @@ elementOrNot = List.elem 4 ?fillme14 == True
 
 -- --------------------------------------------------------------- [ Stop Pete ]
 
--- Make this function true
+-- Make this function true.
 stopPete : Bool
 stopPete = ?fillme15 (repeat 3) == [3,3,3,3]
 

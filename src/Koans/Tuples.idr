@@ -5,6 +5,7 @@
 --           See the file LICENSE in the root directory for its full text.
 -- --------------------------------------------------------------------- [ EOH ]
 
+||| Exercises on tuples.
 module Koans.Tuples
 
 -- ------------------------------------------------------------------- [ Koans ]

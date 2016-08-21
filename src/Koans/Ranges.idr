@@ -5,7 +5,7 @@
 --           See the file LICENSE in the root directory for its full text.
 -- --------------------------------------------------------------------- [ EOH ]
 
--- | Exercises on Ranges
+||| Exercises on ranges.
 module Koans.Ranges
 
 -- ------------------------------------------------------------------- [ Koans ]
