@@ -23,5 +23,5 @@ This might sound complicated but in the long term it makes sense in terms of
 release management.
 
 [Git Branching Model]: http://nvie.com/posts/a-successful-git-branching-model
-[**master**][]: https://github.com/idris-hackers/idris-koans/tree/master
-[**dev**][]:    https://github.com/idris-hackers/idris-koans/tree/dev
+[**master**]: https://github.com/idris-hackers/idris-koans/tree/master
+[**dev**]:    https://github.com/idris-hackers/idris-koans/tree/dev
