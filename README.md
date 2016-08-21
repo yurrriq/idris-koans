@@ -20,18 +20,18 @@ fail to type check, or have the wrong behaviour. To pass each lesson each
 function needs to be completed or fixed so that it type checks, or has
 deterministic behaviour.
 
-[`Koans`]: ./src/Koans/
+[`src/Koans/`]: ./src/Koans/
 
 The files should be attempted in the following order:
 
-1. 01-Arithmetic.idr
-1. 02-Equality.idr
-1. 03-Boolean.idr
-1. 04-Ranges.idr
-1. 05-Lists.idr
-1. 06-ListComprehensions.idr
-1. 07-Tuples.idr
-1. 08-HigherOrderFunctions.idr
+1. Arithmetic.idr
+2. Equality.idr
+3. Boolean.idr
+4. Ranges.idr
+5. Lists.idr
+6. ListComprehensions.idr
+7. Tuples.idr
+8. HigherOrderFunctions.idr
 
 Idris Koans is in early development and so the list of Koans and method of
 interaction is primitive. If you would like to contribute please feel free to do
