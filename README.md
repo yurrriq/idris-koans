@@ -13,44 +13,32 @@ fixing the code you will learn more about Idris and FP.
 [ClojureScript]: http://clojurescriptkoans.com/
 [Ruby]:          http://rubykoans.com/
 
-Within [`src/Koans/`][] you will find the various lessons. Each lesson addresses
-various topics within FP, and also specific to Idris. Each lesson consists of a
-series of functions that when passed through the Idris compiler will either:
-fail to type check, or have the wrong behaviour. To pass each lesson each
-function needs to be completed or fixed so that it type checks, or has
-deterministic behaviour.
+Within [`src/Koans/`](./src/Koans/) you will find the various lessons. Each
+lesson addresses various topics within FP, and also specific to Idris. Each
+lesson consists of a series of functions that when passed through the Idris
+compiler will either: fail to type check, or have the wrong behaviour. To pass
+each lesson each function needs to be completed or fixed so that it type checks,
+or has deterministic behaviour.
 
 The files should be attempted in the following order:
 
-1. [Arithmetic.idr][]
-2. [Equality.idr][]
-3. [Boolean.idr][]
-4. [Ranges.idr][]
-5. [Lists.idr][]
-6. [ListComprehensions.idr][]
-7. [Tuples.idr][]
-8. [HigherOrderFunctions.idr][]
-
-[`src/Koans/`]: ./src/Koans/
-[Arithmetic.idr]: ./src/Koans/Arithmetic.idr
-[Equality.idr]: ./src/Koans/Equality.idr
-[Boolean.idr]: ./src/Koans/Boolean.idr
-[Ranges.idr]: ./src/Koans/Ranges.idr
-[Lists.idr]: ./src/Koans/Lists.idr
-[ListComprehensions.idr]: ./src/Koans/ListComprehensions.idr
-[Tuples.idr]: ./src/Koans/Tuples.idr
-[HigherOrderFunctions.idr]: ./src/Koans/HigherOrderFunctions.idr
+1. [Arithmetic](./src/Koans/Arithmetic.idr)
+2. [Equality](./src/Koans/Equality.idr)
+3. [Boolean](./src/Koans/Boolean.idr)
+4. [Ranges](./src/Koans/Ranges.idr)
+5. [Lists](./src/Koans/Lists.idr)
+6. [ListComprehensions](./src/Koans/ListComprehensions.idr)
+7. [Tuples](./src/Koans/Tuples.idr)
+8. [HigherOrderFunctions](./src/Koans/HigherOrderFunctions.idr)
 
 Idris Koans is in early development and so the list of Koans and method of
 interaction is primitive. If you would like to contribute please feel free to do
-so. However, please read [CONTRIBUTING.md] first. We advised the best way to
-attempt each Koan is to edit the Koan file in your favourite editor, and compile
-each Koan in the terminal using the Idris compiler. In future a more interactive
-environment may be planned. Either a CLI/REPL environment _à la_
-[Clojure Koans](http://clojurekoans.com/), or Web Based _à la_
-[Clojurescript Koans](http://clojurescriptkoans.com/) may be added.
-
-[CONTRIBUTING.md]: ./CONTRIBUTING.md
+so. However, please read [CONTRIBUTING.md](./CONTRIBUTING.md) first. We advised
+the best way to attempt each Koan is to edit the Koan file in your favourite
+editor, and compile each Koan in the terminal using the Idris compiler. In
+future a more interactive environment may be planned. Either a CLI/REPL
+environment _à la_ [Clojure Koans][Clojure]], or Web Based _à la_
+[ClojureScript Koans][ClojureScript] may be added.
 
 The latest stable release of Idris can easily be installed using cabal:
 
