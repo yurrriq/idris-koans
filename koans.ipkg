@@ -1,0 +1,23 @@
+package koans
+
+modules    = Koans.Arithmetic
+           , Koans.Equality
+           , Koans.Boolean
+           , Koans.Ranges
+           , Koans.Lists
+           , Koans.ListComprehensions
+           , Koans.Tuples
+           , Koans.HigherOrderFunctions
+           , Koans.Misc
+
+brief      = "Small lessons on the path to enlightenment."
+version    = 0.0.1
+readme     = README.md
+license    = BSD-3
+author     = "Idris Hackers"
+
+homepage   = https://github.com/idris-hackers/idris-koans
+sourceloc  = https://github.com/idris-hackers/idris-koans
+bugtracker = https://github.com/idris-hackers/idris-koans/idris
+
+sourcedir  = src
