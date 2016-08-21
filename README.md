@@ -13,14 +13,14 @@ fixing the code you will learn more about Idris and FP.
 [ClojureScript]: http://clojurescriptkoans.com/
 [Ruby]:          http://rubykoans.com/
 
-Within the [`Koans`][] folder you will find the various lessons. Each lesson
-addresses various topics within FP, and also specific to Idris. Each lesson
-consists of a series of functions that when passed through the Idris compiler
-will either: fail to type check, or have the wrong behaviour. To pass each
-lesson each function needs to be completed or fixed so that it type checks, or
-has deterministic behaviour.
+Within [`src/Koans/`][] you will find the various lessons. Each lesson addresses
+various topics within FP, and also specific to Idris. Each lesson consists of a
+series of functions that when passed through the Idris compiler will either:
+fail to type check, or have the wrong behaviour. To pass each lesson each
+function needs to be completed or fixed so that it type checks, or has
+deterministic behaviour.
 
-[`Koans`]: ./Koans/
+[`Koans`]: ./src/Koans/
 
 The files should be attempted in the following order:
 
