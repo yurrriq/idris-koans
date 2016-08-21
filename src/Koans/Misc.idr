@@ -10,7 +10,7 @@ module Koans.Misc
 
 ||| The list of integers from 1 to 20 that are odd.
 smallOdds : List Integer
-smallOdds = [x | x <- [1..20], Builtins.mod x 2 == 0 ]
+smallOdds = [ x | x <- [1..20], mod x 2 == 1 ]
 
 ||| Say hello to `whom`.
 ||| @ whom The name of someone to whom to say hello.

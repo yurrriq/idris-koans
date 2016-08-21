@@ -39,14 +39,21 @@ mySecondFold = 5 == foldl ?fillme5 5 [1..4]
 -- TODO Add examples for scanr and foldr
 -- --------------------------------------------------------------------- [ EOH ]
 
+||| Produce a List of left fols of prefixes of the given List.
+||| @ f   The combining function.
+||| @ acc The initial value.
+||| @ xs  The List to process.
+scanl : (f : a -> b -> a) -> (acc : a) -> (xs : List b) -> List a
+scanl f acc (x :: xs) = acc :: scanl f (f acc x) xs
+
 myFirstScan : Bool
-myFirstScan = scanl (max) 5 [1,2,3,4] == ?fillme6
+myFirstScan = scanl max 5 [1,2,3,4] == ?fillme6
 
 mySecondScan : Bool
 mySecondScan = scanl ?fillme7 5 [1,2,10,1] == [5,5,5,10,10]
 
 myThirdScan : Bool
-myThirdScan = scanl (/) 64 [4,2,4] == ?fillme8
+myThirdScan = scanl (/) 64.0 [4,2,4] == ?fillme8
 
 -- --------------------------------------------------------------- [ Filtering ]
 -- You can filter things as well.

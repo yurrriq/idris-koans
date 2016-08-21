@@ -8,6 +8,8 @@
 ||| Exercises on tuples.
 module Koans.Tuples
 
+import Data.Vect
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 firstPair : Bool
