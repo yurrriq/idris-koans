@@ -1,4 +1,13 @@
+-- -------------------------------------------------- [ ListComprehensions.idr ]
+-- Module  : Koans.ListComprehensions
+--
+-- License : This code is distributed under the BSD 3-Clause License
+--           See the file LICENSE in the root directory for its full text.
+-- --------------------------------------------------------------------- [ EOH ]
+
 module Koans.ListComprehensions
+
+-- ------------------------------------------------------------------- [ Koans ]
 
 -- | What is the result of the List Comprehension.
 listCompZero : Bool
@@ -23,7 +32,9 @@ boomBangs xs = ?fillme4
                  transform : Integer -> String
                  transform = ?fillme5
 
+-- ------------------------------------------------------------------- [ Tests ]
+
 doBoomBangs : Bool
 doBoomBangs = boomBangs [3,4,5,6,7] == ["bang", "boom", "bang", "boom", "bang"]
 
-
+-- --------------------------------------------------------------------- [ EOF ]

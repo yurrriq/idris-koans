@@ -1,5 +1,14 @@
+-- -------------------------------------------------------------- [ Ranges.idr ]
+-- Module  : Koans.Ranges
+--
+-- License : This code is distributed under the BSD 3-Clause License
+--           See the file LICENSE in the root directory for its full text.
+-- --------------------------------------------------------------------- [ EOH ]
+
 -- | Exercises on Ranges
 module Koans.Ranges
+
+-- ------------------------------------------------------------------- [ Koans ]
 
 rangeNums : Bool
 rangeNums = ?fillme1 == [1..13]

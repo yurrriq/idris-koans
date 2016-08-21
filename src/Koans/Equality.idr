@@ -1,5 +1,14 @@
+-- ------------------------------------------------------------ [ Equality.idr ]
+-- Module  : Koans.Equality
+--
+-- License : This code is distributed under the BSD 3-Clause License
+--           See the file LICENSE in the root directory for its full text.
+-- --------------------------------------------------------------------- [ EOH ]
+
 -- | Exercises on Equality.
 module Koans.Equality
+
+-- ------------------------------------------------------------------- [ Koans ]
 
 equalityEq : Bool
 equalityEq = ?fillme1 == True

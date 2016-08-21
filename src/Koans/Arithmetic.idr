@@ -1,5 +1,14 @@
+-- ---------------------------------------------------------- [ Arithmetic.idr ]
+-- Module  : Koans.Arithmetic
+--
+-- License : This code is distributed under the BSD 3-Clause License
+--           See the file LICENSE in the root directory for its full text.
+-- --------------------------------------------------------------------- [ EOH ]
+
 -- | Some simple arithmetic exercises.
 module Koans.Arithmetic
+
+-- ------------------------------------------------------------------- [ Koans ]
 
 -- | There were 32 B/W Episodes of Ivor the Engine, and 72 episodes
 -- were produced altogether. How many colour episodes were produced?

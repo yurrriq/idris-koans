@@ -1,8 +1,16 @@
+-- ------------------------------------------------ [ HigherOrderFunctions.idr ]
+-- Module  : Koans.HigherOrderFunctions
+--
+-- License : This code is distributed under the BSD 3-Clause License
+--           See the file LICENSE in the root directory for its full text.
+-- --------------------------------------------------------------------- [ EOH ]
+
 module Koans.HigherOrderFunctions
 
--- Complete these functions
-
+-- ----------------------------------------------------------------- [ Mapping ]
 -- Maps are used to map a function to elements in a list.
+-- --------------------------------------------------------------------- [ EOH ]
+
 myFirstMap : Bool
 myFirstMap = ?fillme1 == map (2*) [1..4]
 
@@ -12,15 +20,24 @@ mySecondMap = [1, 4, 9, 16, 25] == map ?fillme2 [1..5]
 myThirdMap : Bool
 myThirdMap = [25, 16, 9, 4, 1] == map ?fillme3 [1..5]
 
--- Folds are used to combine elements in a list from start to finish using a function.
+-- ----------------------------------------------------------------- [ Folding ]
+-- Folds are used to combine elements in a list from start to finish
+-- using a function.
+-- --------------------------------------------------------------------- [ EOH ]
+
 myFirstFold : Bool
 myFirstFold = foldl (+) 0 [1..4] == ?fillme4
 
 mySecondFold : Bool
 mySecondFold = 5 == foldl ?fillme5 5 [1..4]
 
+-- ---------------------------------------------------------------- [ Scanning ]
+-- Scans are like fold, but you see the intermediate results,
+-- and then the result.
+--
+-- TODO Add examples for scanr and foldr
+-- --------------------------------------------------------------------- [ EOH ]
 
--- Scans are like fold but you see the intermediate results, and then the result.
 myFirstScan : Bool
 myFirstScan = scanl (max) 5 [1,2,3,4] == ?fillme6
 
@@ -30,11 +47,9 @@ mySecondScan = scanl ?fillme7 5 [1,2,10,1] == [5,5,5,10,10]
 myThirdScan : Bool
 myThirdScan = scanl (/) 64 [4,2,4] == ?fillme8
 
-
--- TODO Add examples for scanr and foldr
-
-
+-- --------------------------------------------------------------- [ Filtering ]
 -- You can filter things as well.
+-- --------------------------------------------------------------------- [ EOH ]
 
 xs : List Int
 xs = [1,2,3,4,5,6,7,8,9,10]
@@ -45,7 +60,11 @@ myFirstFilter = filter (>5) xs == ?fillme15
 mySecondFilter : Bool
 mySecondFilter = filter ?fillme16 [10,20,30,40,50,60,70,80,90,100] == xs
 
--- You can combine functions as well
+-- --------------------------------------------------------------- [ Combining ]
+-- You can combine functions as well.
+-- --------------------------------------------------------------------- [ EOH ]
 
 myFirstCombi : Bool
 myFirstCombi =  ["bang", "boom", "bang", "boom", "bang"] == map ?fillme17 (filter ?fillme18 xs)
+
+-- --------------------------------------------------------------------- [ EOF ]
