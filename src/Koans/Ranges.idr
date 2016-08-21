@@ -8,6 +8,8 @@
 ||| Exercises on ranges.
 module Koans.Ranges
 
+%access export
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 rangeNums : Bool

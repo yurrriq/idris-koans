@@ -8,6 +8,8 @@
 ||| Miscellaneous examples.
 module Koans.Misc
 
+%access export
+
 ||| The list of integers from 1 to 20 that are odd.
 smallOdds : List Integer
 smallOdds = [ x | x <- [1..20], mod x 2 == 1 ]

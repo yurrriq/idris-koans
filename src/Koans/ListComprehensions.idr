@@ -8,6 +8,8 @@
 ||| Exercises on list comprehensions.
 module Koans.ListComprehensions
 
+%access export
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 -- What is the result of the list comprehension?

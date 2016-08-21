@@ -8,6 +8,8 @@
 ||| Exercises using higher-order functions.
 module Koans.HigherOrderFunctions
 
+%access export
+
 -- ----------------------------------------------------------------- [ Mapping ]
 -- Maps are used to map a function to elements in a list.
 -- --------------------------------------------------------------------- [ EOH ]

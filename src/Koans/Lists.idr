@@ -8,6 +8,8 @@
 ||| Exercises on lists
 module Koans.Lists
 
+%access export
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 -- What is the type of this list?

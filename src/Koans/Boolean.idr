@@ -8,6 +8,8 @@
 ||| Exercises on boolean relations.
 module Koans.Boolean
 
+%access export
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 logicalAND : Bool

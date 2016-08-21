@@ -10,6 +10,8 @@ module Koans.Tuples
 
 import Data.Vect
 
+%access export
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 firstPair : Bool

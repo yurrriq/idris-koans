@@ -8,6 +8,8 @@
 ||| Exercises on equality.
 module Koans.Equality
 
+%access export
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 equalityEq : Bool

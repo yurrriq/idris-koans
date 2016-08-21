@@ -8,6 +8,8 @@
 ||| Some simple arithmetic exercises.
 module Koans.Arithmetic
 
+%access export
+
 -- ------------------------------------------------------------------- [ Koans ]
 
 ||| There were 32 B/W Episodes of Ivor the Engine, and 72 episodes
