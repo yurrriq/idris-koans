@@ -9,6 +9,7 @@ modules    = Koans.Arithmetic
            , Koans.Tuples
            , Koans.HigherOrderFunctions
            , Koans.Misc
+           , Koans.Test
 
 brief      = "Small lessons on the path to enlightenment."
 version    = 0.0.1
