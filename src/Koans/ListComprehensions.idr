@@ -32,13 +32,13 @@ divisibleByNine = ?fillme3
 ||| Map odd numbers to `"bang"` and even numbers to `"boom"`.
 boomBangs : List Integer -> List String
 boomBangs xs = ?fillme4
-               where
-                 transform : Integer -> String
-                 transform = ?fillme5
+  where
+    transform : Integer -> String
+    transform = ?fillme5
 
 -- ------------------------------------------------------------------- [ Tests ]
 
-doBoomBangs : Bool
-doBoomBangs = boomBangs [3,4,5,6,7] == ["bang", "boom", "bang", "boom", "bang"]
+testBoomBangs : Bool
+testBoomBangs = boomBangs [3,4,5,6,7] == ["bang","boom","bang","boom","bang"]
 
 -- --------------------------------------------------------------------- [ EOF ]

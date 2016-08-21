@@ -73,6 +73,8 @@ mySecondFilter = filter ?fillme16 [10,20,30,40,50,60,70,80,90,100] == xs
 -- --------------------------------------------------------------------- [ EOH ]
 
 myFirstCombi : Bool
-myFirstCombi =  ["bang", "boom", "bang", "boom", "bang"] == map ?fillme17 (filter ?fillme18 xs)
+myFirstCombi =
+  let filteredThenMapped = map ?fillme17 (filter ?fillme18 xs)
+  in  ["bang","boom","bang","boom","bang"] == filteredThenMapped
 
 -- --------------------------------------------------------------------- [ EOF ]
